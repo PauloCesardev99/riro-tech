@@ -1,0 +1,103 @@
+@media (min-width: 600px) {
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .cabecalho ul{
+        display: flex;
+    
+    }
+
+    .cabecalho ul li{
+        margin-left: 1em;
+    }
+
+
+    .apresentacao{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .apresentacao article{
+        width: 50%;
+    }
+
+
+    .sobre-nos{
+        display: flex;
+    }
+
+    .sobre-nos article{
+        width: 50%;
+    }
+
+
+    .projeto{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+
+
+    .servicos{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px 0px 50px 0px;
+    }
+
+    .servico{
+        padding: 10px;
+        width: 400px;
+        border: 5px solid #64bce1;
+        border-radius: 10px;
+    }
+  
+    .contato{
+        padding: 80px 10px 50px 0px;
+        border-radius: 90px 90px 0px 0px;
+        border-top: 5px solid  #64bce1;
+    }
+
+    .contatos{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contato article:nth-child(2){
+        margin: 0px;
+        width: 30%;
+        box-shadow: 5px 5px 5px black;
+        border: solid 2px #64bbe193;
+    }
+
+
+    .rodape{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rodape p{
+        display: block;
+    
+    }
+
+    .rodape ul{
+        display: flex;
+    }
+
+    .rodape ul li img{
+        width: 50px;
+    }
+
+    .rodape .logo img{
+        width: 50px;
+    }
+
+    .rodape div{
+        margin-top: 0px;
+    }
+}
