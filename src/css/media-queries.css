@@ -37,9 +37,24 @@
 
     .projeto{
         display: flex;
-        width: 50%;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
+
+    .projeto div:nth-child(1){
+        width: 50%;
+    }
+
+    .projeto div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+   
+    .image-projeto img{
+        margin-top: 0px;
+    }
+
 
 
 
@@ -85,12 +100,25 @@
     
     }
 
+    .rodape div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .rodape ul{
         display: flex;
     }
 
     .rodape ul li img{
-        width: 50px;
+        width: 30px;
+        margin-left: 1em;
+    }
+
+    .rodape .logo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .rodape .logo img{

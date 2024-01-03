@@ -125,6 +125,12 @@ margin-top: 20px;
 font-size: 2em;
 }
 
+.sobre-nos-image img{
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid #64bce1;
+}
+
 
 /*Sobre o projeto */
 
