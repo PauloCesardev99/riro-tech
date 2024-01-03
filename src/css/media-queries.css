@@ -8,11 +8,17 @@
 
     .cabecalho ul{
         display: flex;
+        margin-top: 0px;
     
     }
 
     .cabecalho ul li{
+        margin-top: 0px;
         margin-left: 1em;
+    }
+
+    .cabecalho .btn a{
+        margin-top: 0px;
     }
 
 
@@ -75,7 +81,14 @@
         padding: 80px 10px 50px 0px;
         border-radius: 90px 90px 0px 0px;
         border-top: 5px solid  #64bce1;
+        background-color: #4b53c8f8;
     }
+
+    .background-contato{
+        background: url(../img/Wallpaper-cidade-foguete.jpg);
+        border-radius: 90px 90px 0px 0px;
+    }
+
 
     .contatos{
         display: flex;

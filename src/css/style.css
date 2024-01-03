@@ -26,7 +26,11 @@ margin-top: 1em;
 text-align: center;
 }
 
-.cabecalho ul li:hover{
+.cabecalho a{
+    color: white;
+}
+
+.cabecalho ul li a:hover{
 color: #64bce1;
 transition: 0.5s;
 cursor: pointer;
