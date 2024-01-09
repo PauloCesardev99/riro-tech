@@ -32,33 +32,60 @@
     }
 
 
+
     .sobre-nos{
         display: flex;
     }
 
     .sobre-nos article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 50%;
+    }
+
+    .sobre-nos p{
+        text-align: justify;
+        padding: 10px;
     }
 
 
     .projeto{
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
-    }
-
-    .projeto div:nth-child(1){
-        width: 50%;
+        
     }
 
     .projeto div{
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .projeto div:nth-child(2){
+        margin-top: 0px;
+        align-items: center;
+        justify-content: end;
+        
+    }
+
+    .projeto p{
+        margin-top: 2em;
+        text-align: justify;
     }
 
    
     .image-projeto img{
+        width: 280px;
+        height: auto;
         margin-top: 0px;
+    }
+
+    .projeto .btn{
+        align-self: center;
     }
 
 
